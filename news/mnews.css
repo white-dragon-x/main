@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+.phon{
+    background-color: rgb(46, 46, 46);
+    padding: 150px;
+    border-radius: 10px;
+    margin-top: -15px;
+}
+.minnews{
+    text-align: center;
+}
+.zag{
+    margin-top: -160px;
+}
+.infa{
+    text-align: center;
+    font-size: 20px;
+}
+.mlink{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: rgb(0, 0, 0);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    font-size: 20px;
+}
+.mlink{
+    background-color: black;
+    color: white;
+}
+.fotka img{
+    width: 70px;
+    border-radius: 20px;
+}
+.zaglav{
+    color: white;
+}
+.slivinfo{
+    color: white;
+}

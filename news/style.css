@@ -1,0 +1,105 @@
+/* Основные стили для темной темы */
+body.dark-theme {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.container {
+    padding: 20px;
+}
+
+body.dark-theme .head, body.dark-theme .other-news {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+body.dark-theme .head h1, body.dark-theme .other-news h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+body.dark-theme .head p, body.dark-theme .other-news p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+body.dark-theme .head p strong, body.dark-theme .other-news p strong {
+    color: #ffffff;
+}
+
+body.dark-theme .head ul, body.dark-theme .other-news ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+body.dark-theme .head ul li, body.dark-theme .other-news ul li {
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    color: #121212;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+body.dark-theme a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body.dark-theme a:hover {
+    text-decoration: underline;
+}
+
+
+#theme-toggle:hover {
+    background-color: #ffffff;
+}
+
+/* Стили для логотипа */
+.head img, .other-news img {
+    max-width: 400px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Стили для кнопок-ссылок */
+.button-links {
+    margin-top: 20px;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #ffffff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #ffffff;
+}
+
+/* Стили для кнопок-ссылок в темной теме */
+body.dark-theme .button-link {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.dark-theme .button-link:hover {
+    background-color: #ffffff;
+}
